@@ -14,7 +14,7 @@
 This section should assist you with installing and using Docker Telescope.
 
 ### Required dependencies
-[nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim). is required.
+[nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) is required.
 
 ### Installation and Customization
 Using [lazy.nvim](https://github.com/folke/lazy.nvim)
