@@ -31,7 +31,9 @@ local function get_docker_images()
 end
 
 function M.setup(opts)
-    vim.keymap.set("n", "<leader>di", function()
+    opts = opts or {}
+    local key = opts.key or "<leader>di"
+    vim.keymap.set("n", key, function()
         M.open(opts or {})
     end, { desc = "Open Docker Images Picker" })
 end 
